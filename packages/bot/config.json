@@ -1,0 +1,44 @@
+{
+    "dev": true,
+    "watch": true,
+    "default_prefix": "+",
+    "custom_status": "+help",
+    "status_type": "playing",
+    "embed_color": "0x202225",
+
+    "token": "MTMwNzM4NTc5NTM1OTAxOTAzOQ.GrxaYL.GuMgRZQuOCHlz9iDw_ABvPgx1df7HrhE8x3Xp8",
+    "sentry_dsn": "",
+    "top_gg_token": "",
+    "discords_token": "",
+    "support_invite": "https://discord.gg/mbP6FAw6zj",
+    "web_url_base": "http://localhost:3001",
+
+    "mongo_url": "",
+    "db_name": "main",
+    "cache_options": [
+        "configs",
+        "mutes",
+        "warns",
+        "cases",
+        "slowmodes",
+        "tbans"
+    ],
+    
+    "langs": [
+        "en_US"
+    ],
+    "plugins": [
+        "error",
+        "utility",
+        "admin",
+        "internal",
+        "mod",
+        "tags",
+        "config",
+        "automod",
+        "cases"
+    ],
+    "disabled_commands": [],
+    "error_channel": 123456789,
+    "vote_channel": 123456789
+}
